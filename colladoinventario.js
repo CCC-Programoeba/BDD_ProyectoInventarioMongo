@@ -3,6 +3,16 @@
 
 use('colladoinventario')
 
+db.createCollection("Proveedor")
+db.createCollection("Pieza")
+db.createCollection("Pieza_Costo")
+db.createCollection("Ubicacion")
+db.createCollection("Pieza_Ubicacion")
+db.createCollection("Familia")
+db.createCollection("Producto")
+db.createCollection("Pieza_pertenece_Producto")
+
+
 // Colección Proveedor
 db.Proveedor.insertMany([
   { CIF: '9873490823', Empresa: 'CNA Group', Direccion: 'CALLE PATATA', Ciudad: 'BARCELONA', Telefono: '+34 93 3561182', Email: 'cacafuti@gmail.com' },
