@@ -46,8 +46,10 @@ evitando posibles problemas NOTA: Hasta que no termine cada proceso, no empiece 
   
 Si en el paso (14)  vemos algo parecido a...
 
+
 CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS                                           NAMES
 7fe5efde99f5   mongo     "docker-entrypoint.s…"   13 minutes ago   Up 13 minutes   0.0.0.0:27017->27017/tcp, :::27017->27017/tcp   mongodb
+
 
 ...significa que todo marcha bien!
 
