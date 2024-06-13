@@ -28,6 +28,7 @@ Linux y con las dependencias que a continuación se detallan:
 2.INSTALACIÓN. Siga PASO A PASO las siguientes puntos para instalar el programa
 evitando posibles problemas NOTA: Hasta que no termine cada proceso, no empiece el siguiente
 	1) En la terminal de Linux, introducimos los siguientes comandos:
+ 
 		(1)$ sudo apt-get remove containerd containerd.io
 		(2)$ sudo apt-get update
 		(3)$ sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
@@ -42,6 +43,7 @@ evitando posibles problemas NOTA: Hasta que no termine cada proceso, no empiece 
 		(12)$ sudo apt-get install python3-tk
 		(13)$ sudo apt-get install python3-pymongo
 		(14)$ sudo docker ps
+  
 Si en el paso (14)  vemos algo parecido a...
 
 CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS                                           NAMES
@@ -49,7 +51,7 @@ CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS       
 
 ...significa que todo marcha bien!
 
-Una vez nos descarguemos himbentario.py de éste mismo repositorio podremos ejecutralo con 
+Una vez nos descarguemos himbentario.py de éste mismo repositorio podremos ejecutarlo con 
 	$ python3 himbentario.py
 y podremos empezar a trabajar con él programa
 
